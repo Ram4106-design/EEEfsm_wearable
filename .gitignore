@@ -1,0 +1,18 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Verilog simulation
+*.vcd
+*.vvp
+simulation.log
+fsm_sim
+
+# Temporary files
+*.tmp
+*.log
