@@ -16,3 +16,6 @@ fsm_sim
 # Temporary files
 *.tmp
 *.log
+
+# Local .dotnet SDK
+.dotnet/
