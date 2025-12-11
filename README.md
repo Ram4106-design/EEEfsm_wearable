@@ -64,10 +64,17 @@ EEEfsm_wearable/
 **Requirements:**
 - Icarus Verilog (`iverilog` and `vvp`)
 
-**Compile and Run:**
+**Compile and Run (Windows PowerShell):**
+```powershell
+cd Verilog
+.\compile.ps1
+vvp fsm_sim
+```
+
+**Manual Compile (Linux/Mac or Standard Path):**
 ```bash
-iverilog -o fsm_test.vvp fsm_wearable.v tb_fsm_wearable.v
-vvp fsm_test.vvp
+iverilog -o fsm_sim tb_fsm_wearable.v fsm_wearable.v
+vvp fsm_sim
 ```
 
 **View Waveforms:**

@@ -20,6 +20,7 @@ namespace FSMSimulator.Controls
 
         public StateNode()
         {
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
             this.DoubleBuffered = true;
             this.Size = new Size(100, 60);
             this.BackColor = Color.Transparent;

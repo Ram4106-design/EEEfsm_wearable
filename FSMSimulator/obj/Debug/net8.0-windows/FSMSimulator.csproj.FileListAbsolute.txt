@@ -1,0 +1,15 @@
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\bin\Debug\net8.0-windows\FSMSimulator.exe
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\bin\Debug\net8.0-windows\FSMSimulator.deps.json
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\bin\Debug\net8.0-windows\FSMSimulator.runtimeconfig.json
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\bin\Debug\net8.0-windows\FSMSimulator.dll
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\bin\Debug\net8.0-windows\FSMSimulator.pdb
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\FSMSimulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\FSMSimulator.AssemblyInfoInputs.cache
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\FSMSimulator.AssemblyInfo.cs
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\FSMSimulator.csproj.CoreCompileInputs.cache
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\FSMSimulator.sourcelink.json
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\FSMSimulator.dll
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\refint\FSMSimulator.dll
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\FSMSimulator.pdb
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\FSMSimulator.genruntimeconfig.cache
+D:\ITS\ELDIG\EEEfsm_wearable\FSMSimulator\obj\Debug\net8.0-windows\ref\FSMSimulator.dll

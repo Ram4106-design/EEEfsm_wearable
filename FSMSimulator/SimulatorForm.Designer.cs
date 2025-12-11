@@ -27,6 +27,8 @@ namespace FSMSimulator
             this.btnReset = new System.Windows.Forms.Button();
             this.lblSpeed = new System.Windows.Forms.Label();
             this.trkSpeed = new System.Windows.Forms.TrackBar();
+            this.cboTests = new System.Windows.Forms.ComboBox();
+            this.btnRunTest = new System.Windows.Forms.Button();
             this.waveformPanel1 = new FSMSimulator.Controls.WaveformPanel();
             this.timerClock = new System.Windows.Forms.Timer(this.components);
 
