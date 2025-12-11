@@ -22,11 +22,16 @@ This project implements a priority-based FSM that monitors sensor inputs and con
 
 ```
 EEEfsm_wearable/
-├── C#/                          # C# Software Implementation
-│   ├── fsm_wearable.cs         # FSM class implementation
-│   ├── Program.cs              # Test program with 4 test cases
-│   ├── FSM_Wearable.exe        # Compiled executable
-│   └── output.txt              # Sample output
+├── FSMSimulator/                # [NEW] C# Windows Forms Simulator
+│   ├── FSMSimulator.csproj     # Project file (Open in Visual Studio)
+│   ├── SimulatorForm.cs        # Main UI Implementation
+│   ├── FSM_Wearable.cs         # Core FSM Logic
+│   ├── Controls/               # Custom UI Controls (LEDs, Waveform)
+│   └── TestCases.cs            # Automated Test Scenarios
+│
+├── C#/                          # Legacy Console Implementation
+│   ├── fsm_wearable.cs         
+│   └── Program.cs              
 │
 └── Verilog/                     # Verilog Hardware Implementation
     ├── fsm_wearable.v          # Synthesizable FSM module
@@ -37,29 +42,22 @@ EEEfsm_wearable/
 
 ## 🚀 Getting Started
 
-### C# Implementation
+### 🖥️ C# Visual Simulator (Recommended)
 
-**Requirements:**
-- .NET Framework 4.0 or higher (or .NET Core/5+)
+**Features:**
+- Interactive Sensor Switches (S1-S6)
+- Real-time State Diagram Visualization
+- Live Waveform View
+- Automated Test Runner
 
-**Compile:**
-```bash
-csc /out:FSM_Wearable.exe fsm_wearable.cs Program.cs
-```
-
-**Run:**
-```bash
-.\FSM_Wearable.exe
-```
-
-**Expected Output:**
-```
-Test Case 1: All sensors 0 (Expected: IDLE)
-Inputs: [0, 0, 0, 0, 0, 0]
-Current State: IDLE (0)
-Actuator Outputs: [0, 0, 0, 0, 0, 0]
-...
-```
+**How to Run:**
+1. Open `FSMSimulator/FSMSimulator.csproj` in **Visual Studio 2022** (or newer).
+2. Press **Start** (F5) to build and run.
+3. *Alternatively*, if you have .NET SDK installed:
+   ```bash
+   cd FSMSimulator
+   dotnet run
+   ```
 
 ### Verilog Implementation
 
@@ -111,8 +109,9 @@ For hardware implementation on FPGA/CPLD, refer to the Verilog implementation. T
 
 ## ✅ Testing
 
-### C# Tests
-- 4 basic test cases covering all states
+### C# Simulator Tests
+- **Interactive Mode**: Manually toggle sensors and observe state changes.
+- **Automated Mode**: Select from 5 predefined test cases (matching Verilog) and run them instantly.
 
 ### Verilog Tests
 - 36 comprehensive test cases including:
@@ -133,7 +132,8 @@ For hardware implementation on FPGA/CPLD, refer to the Verilog implementation. T
 - ✅ Moore FSM architecture
 - ✅ Comprehensive test coverage
 - ✅ Hardware-ready Verilog implementation
-- ✅ Software simulation in C#
+- ✅ Software simulation in C# (Windows Forms GUI)
+- ✅ Visual State Diagram & Waveforms
 
 ## 📄 License
 
